@@ -1,0 +1,42 @@
+.header {
+    text-align: center;
+    background-color: rgba(181, 47, 185, 0.751);
+    border: 2px black solid;
+
+}
+
+.section_header {
+    text-align: center;
+}
+
+.items {
+    background-color: grey;
+    width: fit-content;
+    padding: 1px 20px;
+    border: 2px black solid;
+    float: left;
+    margin: 30px;
+}
+
+.float_right {
+    float: right;
+}
+
+.float_left {
+    float: left;
+}
+
+.picture_circle {
+    border-radius: 50%;
+}
+
+.sections {
+    height: 300px;
+
+}
+
+.images {
+    margin: 30px;
+    height: 140px;
+    /* float: bottom; */
+}
