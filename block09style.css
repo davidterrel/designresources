@@ -7,6 +7,8 @@
 
 .section_header {
     text-align: center;
+    background-color: rgba(19, 15, 137, 0.751);
+    border: 2px black solid;
 }
 
 .items {
@@ -39,4 +41,10 @@
     margin: 30px;
     height: 140px;
     /* float: bottom; */
+}
+
+.portfolio_items {
+    text-align: center;
+    background-color: rgba(19, 15, 137, 0.751);
+    border: 2px black solid;
 }
