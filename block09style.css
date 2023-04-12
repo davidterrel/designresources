@@ -1,3 +1,7 @@
+.body {
+    background-color: rgba(92, 107, 118, 0.753);
+}
+
 .header {
     text-align: center;
     background-color: rgba(104, 157, 195, 0.753);
@@ -12,7 +16,7 @@
 }
 
 .items {
-    background-color: rgb(172, 195, 212);
+    background-color: rgba(104, 157, 195, 0.753);
     width: fit-content;
     padding: 1px 20px;
     border: 2px black solid;
@@ -53,6 +57,16 @@
     text-align: center;
     background-color: rgba(92, 107, 118, 0.753);
     border: 2px black solid;
+}
+
+.quote {
+    font-family: cursive;
+    text-align: center;
+    font-size: x-large;
+}
+
+.center {
+    text-align: center;
 }
 
 /* .form_box_style { 
