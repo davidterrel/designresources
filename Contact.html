@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="block09style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <span class="name">David Terrel</span>
+        <nav class="links">
+            <a class="active" href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="Contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <div></div>
+    <!-- <form action="https://formspree.io/f/customkeygoeshere" method="POST"> 
+        <label>
+            Your email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+        your other form fields go here 
+        <button type="submit">Send</button>
+    </form>-->
+
+    <!-- <form action="https://formspree.io/f/xrgvolnr" method="POST"> 
+        <label>
+            Your email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+        <button type="submit">Send</button>
+    </form>-->
+
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xrgvolnr"
+        method="post">
+        <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" class="form_box_style"
+                required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <label for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Type your message here" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
