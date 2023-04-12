@@ -1,18 +1,18 @@
 .header {
     text-align: center;
-    background-color: rgba(181, 47, 185, 0.751);
+    background-color: rgba(104, 157, 195, 0.753);
     border: 2px black solid;
 
 }
 
 .section_header {
     text-align: center;
-    background-color: rgba(19, 15, 137, 0.751);
+    background-color: rgba(104, 157, 195, 0.753);
     border: 2px black solid;
 }
 
 .items {
-    background-color: grey;
+    background-color: rgb(172, 195, 212);
     width: fit-content;
     padding: 1px 20px;
     border: 2px black solid;
@@ -45,6 +45,20 @@
 
 .portfolio_items {
     text-align: center;
-    background-color: rgba(19, 15, 137, 0.751);
+    background-color: rgba(104, 157, 195, 0.753);
     border: 2px black solid;
 }
+
+.portfolio_items2 {
+    text-align: center;
+    background-color: rgba(92, 107, 118, 0.753);
+    border: 2px black solid;
+}
+
+/* .form_box_style { 
+    border: 20px solid rgba(104, 157, 195, 0.753);
+    padding: 10px;
+    box-shadow: 0 0 15px 4px;
+    border-radius: 20px;
+    font-family: monospace;
+}*/
