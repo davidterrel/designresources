@@ -1,11 +1,16 @@
 .body {
     background-color: rgba(92, 107, 118, 0.753);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
 
 .header {
     text-align: center;
     background-color: rgba(104, 157, 195, 0.753);
     border: 2px black solid;
+
 
 }
 
@@ -34,6 +39,7 @@
 
 .picture_circle {
     border-radius: 50%;
+    border: black solid;
 }
 
 .sections {
@@ -69,10 +75,32 @@
     text-align: center;
 }
 
-/* .form_box_style { 
-    border: 20px solid rgba(104, 157, 195, 0.753);
-    padding: 10px;
-    box-shadow: 0 0 15px 4px;
-    border-radius: 20px;
-    font-family: monospace;
-}*/
+.grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px;
+    margin-bottom: 5px;
+    word-break: break-word;
+}
+
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.form_color {
+    background-color: rgba(104, 157, 195, 0.753);
+    ;
+}
+
+@media screen and (max-width: 900px) {
+    .grid {
+        display: block;
+    }
+}
