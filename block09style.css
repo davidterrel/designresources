@@ -103,3 +103,8 @@
         display: block;
     }
 }
+
+.portfolio_pic {
+    height: 300px;
+    width: 300px;
+}
